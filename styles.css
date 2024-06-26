@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+body{
+    background: #444;
+}
+
+.contact{
+    border: 1px solid #999;
+    text-align: center;
+    border-radius: 10px;
+    width: 85%;
+    margin: 50px auto 50px auto;
+    padding: 50px 20px 50px 20px;
+    box-shadow: 0 0 10px 0px #888;
+    color: #eee;
+}
+
+.contact .profile-pic{
+    width: 250px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0px #888;
+    margin-bottom: 20px;
+}
+
+.contact .name{
+    margin:0 10px 10px 0;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.contact .title{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(207, 207, 207);
+}
+
+.links .link-img{
+    width: 30px;
+    margin: 15px 5px 15px 5px;
+    border: 1px solid #444;
+    border-radius: 50%;
+}
+
+.link-img:hover{
+    border: 1px solid #888;
+}
+
+.hire-me{
+    width: 200px;
+    height: 40px;
+    background: #444;
+    font-size: 18px;
+    color: #ddd;
+    border: 1px solid #444;
+    display: flex;
+    margin: 10px auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0px #888;
+}
+
+.hire-me:hover{
+    border: 1px solid #666;
+}
+
+.hire-me:active{
+    background: #333;
+}
+
+.hire-me-img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+.nav_bar{
+    background: #444;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.nav_link{
+    background: #444;
+    width: 60px;
+    text-align: center;
+    padding: 10px;
+    margin-left: 6px;
+    color: #ddd;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 30px;
+    border: 1px solid #444;
+    box-shadow: 0 0 8px -2px #888;
+}
+
+.nav_link:hover{
+    border: 1px solid #666;
+}
+
+.nav_link:active{
+    background: #393939;
+}
+
+.projct-card{
+    border: 1px solid #999;
+    text-align: center;
+    border-radius: 10px;
+    width: 85%;
+    margin: 30px auto 30px auto;
+    padding: 30px 10px 30px 10px;
+    box-shadow: 0 0 10px 0px #888;
+    color: #eee;
+}
+
+.project-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-link{
+    text-decoration: none;
+    color: #fff;
+    margin: 10px 10px 5px 10px;
+}
+
+.day_count{
+    color: aqua;
+}
