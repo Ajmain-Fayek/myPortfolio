@@ -5,7 +5,7 @@
 }
 
 body{
-    background: #444;
+    background: #333;
     color: #ddd;
 }
 
@@ -18,6 +18,7 @@ body{
     padding: 50px 20px 50px 20px;
     box-shadow: 0 0 10px 0px #888;
     color: #ddd;
+    background: linear-gradient(45deg, #222, #333, #444);
 }
 
 .contact .profile-pic{
@@ -52,7 +53,7 @@ body{
 .hire-me{
     width: 200px;
     height: 40px;
-    background: #444;
+    background: linear-gradient(45deg, #222, #333, #444);
     font-size: 18px;
     color: #ddd;
     border: 1px solid #444;
@@ -79,14 +80,14 @@ body{
 }
 
 .nav_bar{
-    background: #444;
+    background: #333;
     margin-top: 10px;
     display: flex;
     align-items: center;
 }
 
 .nav_link{
-    background: #444;
+    background: linear-gradient(45deg, #222, #333, #444);
     width: 60px;
     text-align: center;
     padding: 10px;
@@ -105,6 +106,10 @@ body{
 
 .nav_link:active{
     background: #393939;
+}
+
+.project{
+    background: linear-gradient(45deg, #222, #333, #444);
 }
 
 .project-card{
@@ -161,4 +166,5 @@ hr{
 
 .cards img{
     border-radius: 10px;
+    width: 230px;
 }
