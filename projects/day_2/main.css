@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, rgb(16, 27, 34), rgb(16, 34, 18), rgb(32, 16, 34));
+    padding: 10px;
+}
+
+.todo-app{
+    width: 100%;
+    max-width: 540px;
+    background: linear-gradient(135deg, rgb(250, 200, 255), rgb(200, 253, 255), rgb(255, 251, 200));
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 20px;
+}
+
+.todo-app h1{
+    display: flex;
+    align-items: center;
+    color: #333;
+}
+
+.todo-app h1 img{
+    width: 30px;
+    margin-left: 10px;
+}
+
+.add-task{
+    display: flex;
+    align-items: center;
+    margin: 20px 0 0 0;
+    justify-content: space-around;
+    background-color: #f1f1f167;
+    box-shadow: 0 0 10px -2px #005500a9;
+    border-radius: 20px;
+}
+
+.add-task input{
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 5px;
+    font-size: 18px;
+    width: 100%;
+    margin-left: 15px;
+}
+ .add-task button{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(0, 235, 0);
+    color: #333;
+    font-size: 16px;
+    font-weight: 600;
+ }
+
+ .add-task button:active{
+    background-color: rgb(0, 177, 0);
+    color: #ddd;
+ }
+
+.task-list{
+    margin: 30px 40px 0 40px;
+}
+
+.task-list ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 12px 12px 50px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.task-list ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    border-radius: 50%;
+    background-image: url(image/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 8px;
+    left: 5px;
+}
+
+.task-list ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+
+.task-list ul li.checked::before{
+    background-image: url(image/checked.png);
+}
+
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #444;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+ul li span:hover{
+    background: #ff000033;
+}
+
+ul li span:active{
+    color: #fff;
+}

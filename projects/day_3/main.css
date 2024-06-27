@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: #0a001d;
+}
+
+.app_container{
+    background: linear-gradient(45deg, #fff, #b69797, #aaaa8a, #eee);
+    width: 90%;
+    max-width: 400px;
+    margin: 100px auto 50px auto;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px 1px #baffff;
+}
+
+.app_container h1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    border-bottom: 1px solid #444;
+    padding: 10px;
+}
+
+.quiz{
+    padding: 10px 0 10px 0;
+}
+
+.quiz h2{
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.btn{
+    background: #ddd;
+    color: #333;
+    border: 1px solid #333;
+    font-weight: 500;
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    text-align: left;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background: #333;
+    color: #fff;
+}
+
+.next-btn{
+    background: linear-gradient(45deg, #fff, #b69797, #aaaa8a, #eee);
+    color: #000;
+    width: 100px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 30px auto 0 auto;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 5px 1px #fff;
+    display: block;
+}
+
+.next-btn:hover{
+    background: linear-gradient(45deg,#fff, #000, #000, #fff);
+    color: #fff;
+}
+
+.next-btn:active{
+    background: linear-gradient(45deg,#b69797, #fff, #eee, #aaaa8a);
+    color: #222;
+}
+
+.correct{
+    background: rgba(172, 255, 179, 0.6);
+}
+
+.incorrect{
+    background: rgba(255, 172, 172, 0.6);
+}

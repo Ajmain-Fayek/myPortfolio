@@ -6,6 +6,7 @@
 
 body{
     background: #444;
+    color: #ddd;
 }
 
 .contact{
@@ -16,7 +17,7 @@ body{
     margin: 50px auto 50px auto;
     padding: 50px 20px 50px 20px;
     box-shadow: 0 0 10px 0px #888;
-    color: #eee;
+    color: #ddd;
 }
 
 .contact .profile-pic{
@@ -35,7 +36,6 @@ body{
 .contact .title{
     font-size: 20px;
     font-weight: 400;
-    color: rgb(207, 207, 207);
 }
 
 .links .link-img{
@@ -91,12 +91,12 @@ body{
     text-align: center;
     padding: 10px;
     margin-left: 6px;
-    color: #ddd;
     text-decoration: none;
     font-size: 16px;
     border-radius: 30px;
     border: 1px solid #444;
     box-shadow: 0 0 8px -2px #888;
+    color: #ddd;
 }
 
 .nav_link:hover{
@@ -107,28 +107,58 @@ body{
     background: #393939;
 }
 
-.projct-card{
+.project-card{
     border: 1px solid #999;
-    text-align: center;
+    text-align: left;
     border-radius: 10px;
     width: 85%;
     margin: 30px auto 30px auto;
     padding: 30px 10px 30px 10px;
     box-shadow: 0 0 10px 0px #888;
-    color: #eee;
+    color: #ddd;
+}
+
+.project-card h3{
+    margin: 10px;
+}
+
+hr{
+    border: 2px solid #999;
+    margin: 10px;
+    border-radius: 2px;
 }
 
 .project-list{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
 }
 
 .project-link{
     text-decoration: none;
-    color: #fff;
+    color: #ddd;
     margin: 10px 10px 5px 10px;
 }
 
 .day_count{
-    color: aqua;
+    color: #00d3d3;
+}
+
+.cards{
+    box-shadow: 0 0 8px -2px #888;
+    padding: 5px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #444;
+    cursor: pointer;
+}
+
+.cards:hover{
+    border: 1px solid #888;
+}
+
+.cards img{
+    border-radius: 10px;
 }
